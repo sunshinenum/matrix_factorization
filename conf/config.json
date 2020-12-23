@@ -1,0 +1,13 @@
+{
+	"train_input_path": "../data/train_input_last",
+	"embedding_size": 50,
+	"epoch": 50,
+	"threads": 8,
+	"learning_rate": 0.01,
+	"reg_rate": 0.00001,
+	"negative_samples": 2,
+	"uid_path": "../data/o_uids",
+	"iid_path": "../data/o_iids",
+	"user_embedding_path": "../data/o_ue.npy",
+	"item_embedding_path": "../data/o_ie.npy"
+}
