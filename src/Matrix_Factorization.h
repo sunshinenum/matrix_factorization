@@ -31,9 +31,9 @@ public:
     unordered_map<string, unsigned long> *items_dict;
     vector<string> *users;
     vector<string> *items;
-    unsigned long *tokens;
-    double *user_embeddings;
-    double *item_embeddings;
+    unsigned long *tokens{};
+    double *user_embeddings{};
+    double *item_embeddings{};
     unsigned long user_count;
     unsigned long items_count;
     unsigned long tokens_count;
